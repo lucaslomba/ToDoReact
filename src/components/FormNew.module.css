@@ -1,0 +1,31 @@
+.todoForm{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.input {
+    width: 39.875rem;
+    height: 3.375rem;
+    background: var(--gray-500);
+    border: 0;
+    border-radius: 8px;
+    padding: 1rem;
+    line-height: 1.4;
+    border: 1px solid var(--gray-700);
+    margin-top: -1.687rem;
+    margin-right: 8px;
+}
+
+.buttonSubmit {
+    width: 5.625rem;
+    height: 3.375rem;
+    margin-top: -1.687rem;
+    border-radius: 8px;
+    border: 1px solid var(--gray-700);
+    background: var(--blue-dark);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

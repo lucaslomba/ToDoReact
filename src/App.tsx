@@ -6,7 +6,7 @@ import { useState } from 'react'
 
 import ClippboardIcon from './assets/Clipboard.svg'
 import TrashIcon from './assets/trash.svg'
-import CheckIcon from './assets/check.svg'
+import CheckIcon from './assets/Check.svg'
 
 export interface Task {
   id: number;

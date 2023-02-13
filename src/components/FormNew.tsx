@@ -36,7 +36,7 @@ export function FormNew({ handleCreateNewTask }: Props){
             
             <button type="submit" className={styles.buttonSubmit}>
                 Criar
-                <img src={todoLogo} alt="Logotipo do ToDo" style={{marginLeft: '0.5rem'}}/>
+                <img src={todoLogo} alt="plus icon" style={{marginLeft: '0.5rem'}}/>
             </button>
         </form>
     )

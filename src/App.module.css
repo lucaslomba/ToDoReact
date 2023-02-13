@@ -36,3 +36,67 @@
   justify-content: center;
   align-items: center;
 }
+
+.cardList {
+  margin-top: 24px;
+  line-height: 1.3;
+}
+
+.listEmpty {
+  border-top: 1px solid var(--gray-400);
+  border-radius: 8px;
+  padding: 4rem 1.5rem 4rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--gray-300);
+}
+
+.taskCard {
+  min-height: 4.5rem;
+  background: var(--gray-500);
+  border-radius: 8px;
+  border: 1px solid var(--gray-400);
+  margin-bottom: 1rem;
+
+  display: flex;
+  align-items: center;
+}
+
+.divTrash {
+  padding-left: 2rem;
+  margin-left: auto;
+  margin-right: 1rem;
+}
+
+.button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.divStatus {
+  margin-right: 1.5rem;
+  margin-left: 1rem;
+}
+
+.notCompleted {
+  height: 1.5rem;
+  width: 1.5rem;
+  border: 2px solid var(--blue);
+  border-radius: 50%;
+  color: transparent;
+}
+
+.completed {
+  height: 1.5rem;
+  width: 1.5rem;
+  background: var(--purple);
+  border: 2px solid var(--purple);
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

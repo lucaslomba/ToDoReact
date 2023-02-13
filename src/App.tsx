@@ -20,6 +20,10 @@ function App() {
   const [concluidas, setConcluidas] = useState('0')
 
   function handleCreateNewTask(title: string){
+    if(title === ''){
+      return
+    }
+    
     const data = {
         id: new Date().getTime(),
         title: title,
